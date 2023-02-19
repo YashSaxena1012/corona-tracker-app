@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: rgb(231, 57, 57);
+    height: 100vh;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.ct-widget {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    height: 420px;
+    width: 800px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+        0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+
+.morebtn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    width: 31rem;
+    padding: 12px 26px;
+    text-align: center;
+    font-size: 16px;
+    margin: 1rem 6rem;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px red;
+    letter-spacing: .7px;
+}
+
+.morebtn:hover {
+    box-shadow: 0px 0px 10px rgb(126, 3, 3);
+    opacity: 1;
+    letter-spacing: 1px;
+    transform: scale(1.1);
+}
+
+.ct-head {
+    display: flex;
+    align-items: center;
+    column-gap: 6rem;
+}
+
+.ct-country {
+    margin-left: -13rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.ct-icon {
+    margin: 1rem 3rem;
+    color: red;
+    font-size: 5rem;
+}
+
+.icon2 {
+    position: relative;
+    left: -17rem;
+}
+
+.ct-info {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    margin: 8rem -40rem;
+    font-size: larger;
+    width: 90%;
+}
+
+.ct-info p {
+    margin-top: 1rem;
+}
+
+.aclass, 
+.bclass {
+    letter-spacing: 1px;
+    height: 2rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 5px rgb(124, 122, 122);
+    width: 20rem;
+    max-width: 100%;
+    padding: .25rem;
+    border-radius: 5px;
+
+}
+
+.aclass {
+    color: #fff;
+    background-color: rgb(244, 81, 30);
+}
+
+.bclass {
+    background-color: #ffffff;
+    color: rgb(244, 81, 30);
+}
+
+.ct-search {
+    width: 30rem;
+    height: 2.5rem;
+    padding: .35rem;
+    outline: none;
+    border: 2px solid white;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    margin: 0rem 4rem 2rem 8rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.search-icon {
+    position: relative;
+    top: 0.4rem;
+    margin: -3rem;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
